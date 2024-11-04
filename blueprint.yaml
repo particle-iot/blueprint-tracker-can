@@ -13,8 +13,10 @@ integrations: []
 hardwareDependencies:
   - name: Tracker One
     link: https://www.particle.io/tracker-one/
+    tags: [ "Tracker One" ]
   - name: Particle T-SoM Module
     link: https://www.particle.io/tracker-som/
+    tags: [ "T-SoM" ]
 description: |
   - Connecting the Tracker One to a vehicle OBD-II port (J1962)
   - Requesting CAN bus data
