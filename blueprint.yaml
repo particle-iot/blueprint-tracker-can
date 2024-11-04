@@ -1,0 +1,22 @@
+id: particle/blueprint-tracker-can
+category: solution
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-tracker-can
+name: blueprint-tracker-can
+shortDescription: Connecting the Tracker One to a vehicle CAN bus
+version: 1.0.0
+models: []
+language:
+  - C++
+cloudServices: []
+integrations:
+  - qcom-aware
+hardwareDependencies:
+  - name: Tracker One
+    link: https://www.particle.io/tracker-one/
+  - name: Particle T-SoM Module
+    link: https://www.particle.io/tracker-som/
+description: |
+  - Connecting the Tracker One to a vehicle OBD-II port (J1962)
+  - Requesting CAN bus data
+  - Adding information to Tracker location publishes
