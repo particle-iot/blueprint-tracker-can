@@ -1,5 +1,5 @@
 id: particle/blueprint-tracker-can
-category: solution
+category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-can
 name: blueprint-tracker-can
