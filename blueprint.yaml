@@ -8,7 +8,7 @@ version: 1.0.0
 models: []
 language:
   - C++
-cloudServices: [ "Integrations", "Logic", "Ledger", "Lake" ]
+cloudServices: [ "Integrations", "Logic", "Ledger" ]
 integrations: []
 hardwareDependencies:
   - name: Tracker One
