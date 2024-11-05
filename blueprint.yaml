@@ -2,7 +2,7 @@ id: particle/blueprint-tracker-can
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-can
-name: "Blueprint tracker CAN"
+name: "Tracker CAN bus integration"
 shortDescription: Connecting the Tracker One to a vehicle CAN bus
 version: 1.0.0
 models: []
