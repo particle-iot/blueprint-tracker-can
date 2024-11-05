@@ -2,13 +2,13 @@ id: particle/blueprint-tracker-can
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-tracker-can
-name: blueprint-tracker-can
+name: "Blueprint tracker CAN"
 shortDescription: Connecting the Tracker One to a vehicle CAN bus
 version: 1.0.0
 models: []
 language:
   - C++
-cloudServices: []
+cloudServices: [ "Integrations", "Logic", "Ledger", "Lake" ]
 integrations: []
 hardwareDependencies:
   - name: Tracker One
@@ -18,6 +18,12 @@ hardwareDependencies:
     link: https://www.particle.io/tracker-som/
     tags: [ "T-SoM" ]
 description: |
-  - Connecting the Tracker One to a vehicle OBD-II port (J1962)
-  - Requesting CAN bus data
-  - Adding information to Tracker location publishes
+  This application demonstrates how to connect the Particle Tracker One to a vehicle’s CAN bus using the OBD-II (J1962) interface to retrieve engine RPM and other data.
+
+  Key Features:
+  - Configure CAN bus parameters and request data such as engine RPM from the vehicle.
+  - Add vehicle data to location publishes.
+  - Aggregate frequently changing data and upload metrics (minimum, average, and maximum) alongside location data.
+  - Dynamically adjust the location publish rate based on conditions (e.g., when the engine is running above idle).
+
+  This example uses the Particle CAN library [can-mcp25x](https://github.com/particle-iot/can-mcp25x) and includes a CAN bus simulator for easier testing.
