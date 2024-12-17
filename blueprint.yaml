@@ -1,9 +1,8 @@
-id: particle/blueprint-tracker-can
 slug: particle-blueprint-tracker-can
 type: tutorial
 category: "Tracker projects"
-expertiseLevel: ""
-tags: ["tracker"]
+expertiseLevel: "intermediate"
+tags: ["tracker", "automotive", "industrial", "communication"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-can
 name: "Tracker CAN bus integration"
