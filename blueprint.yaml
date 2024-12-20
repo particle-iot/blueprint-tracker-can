@@ -22,6 +22,7 @@ supportedDevices:
     link: https://www.particle.io/tracker-som/
 hardwareDependencies:
   - name: Supported device
+  - name: M8 cable with OBD-II connector
 introduction: |
   This application note shows how to use the CAN bus for OBD-II to retrieve engine RPM
 description: |
