@@ -6,7 +6,7 @@ tags: ["Tracker", "Automotive", "Industrial", "Communication"]
 icon: assets/tracker-can-bus-integration.svg
 gitrepo: https://github.com/particle-iot/blueprint-tracker-can
 name: "Tracker CAN bus integration"
-shortDescription: Connecting the Tracker One to a vehicle CAN bus
+shortDescription: "Connecting the Tracker One to a vehicle CAN bus."
 version: 1.0.0
 models: []
 language: ["C++"]
